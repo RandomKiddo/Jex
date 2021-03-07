@@ -12,7 +12,6 @@ For more information on the license, see: https://www.gnu.org/licenses/gpl-3.0.e
 */
 
 //HTML CODE FOR JAVADOC
-
 /**
  * @author RandomKiddo
  * @version Alpha 1.0

@@ -13,6 +13,7 @@ For more information on the license, see: https://www.gnu.org/licenses/gpl-3.0.e
 
 import java.util.*;
 import java.util.function.*;
+
 //HTML CODE FOR JAVADOC
 /**
  * @author RandomKiddo
@@ -484,11 +485,5 @@ public class Tuple<T> extends Object implements Comparable<Tuple<T>>, Iterable<T
      */
     public Class<? extends Object> classContainer(){
         return this.arr[0].getClass();
-    }
-    /**
-     * Empty main method
-     * @param args Internal call used by Java
-     */
-    public static final void main(String [] args){
     }
 }
