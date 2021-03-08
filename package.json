@@ -1,8 +1,0 @@
-{
-    "name": "Jex",
-    "description": "A Java Extender Kit",
-    "author": "RandomKiddo",
-    "scripts": {
-	"test": "src/Test.java"
-    }
-}
