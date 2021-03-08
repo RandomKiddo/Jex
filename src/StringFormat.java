@@ -72,7 +72,7 @@ public class StringFormat extends Object {
         String built = "";
         int trackedIndex = 0;
         for (int i = 0; i < breakPoints.length; i++) {
-            if (trackedIndex < args.length) {
+            if (trackedIndex < args.length && trackedIndex <= breakPoints.length-2) {
                 built += breakPoints[i] + args[trackedIndex];
                 ++trackedIndex;
             } else {
