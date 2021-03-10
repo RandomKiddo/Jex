@@ -35,7 +35,6 @@ public class StringFormat extends Object {
     //Fields
     private String format;
     //Constructors
-
     /**
      * Initializes a new StringFormat
      * @param format The format for this StringFormat
@@ -44,7 +43,6 @@ public class StringFormat extends Object {
         this.format = format;
     }
     //Methods
-
     /**
      * Returns a String representation of this StringFormat
      * @return The String representation
@@ -53,7 +51,6 @@ public class StringFormat extends Object {
     public String toString() {
         return this.format;
     }
-
     /**
      * Gets this format
      * @return The format of this StringFormat
@@ -61,7 +58,6 @@ public class StringFormat extends Object {
     public String getFormat() {
         return this.format;
     }
-
     /**
      * Formats the given arguments onto the format
      * @param args The arguments to format
