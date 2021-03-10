@@ -4,5 +4,10 @@
 
 # IntelliJ Files
 .idea
-*/*.xml
-*/*.iml
+*.xml
+*.iml
+
+# Java Files
+*.class
+*.ctxt
+*.jar
