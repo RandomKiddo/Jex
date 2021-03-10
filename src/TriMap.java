@@ -11,6 +11,8 @@ The "work" is defined as any part of Jex that is a source code file (.java, .jar
 For more information on the license, see: https://www.gnu.org/licenses/gpl-3.0.en.html
 */
 
+package Jex;
+
 import java.util.*;
 import java.util.function.*;
 
