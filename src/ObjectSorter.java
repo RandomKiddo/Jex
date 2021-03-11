@@ -35,6 +35,10 @@ package Jex;
  * Quick Sort
  */
 public class ObjectSorter extends Object {
+    /**
+     * Sorts an Object array using selection sort
+     * @param arr The array to sort
+     */
     public static void selectionSort(Object[] arr) {
         for (int i = 0; i < arr.length - 1; ++i) {
             int index = i;
@@ -48,6 +52,10 @@ public class ObjectSorter extends Object {
             }
         }
     }
+    /**
+     * Sorts an Object array using bubble sort
+     * @param arr The array to sort
+     */
     public static void bubbleSort(Object[] arr) {
         for (int i = 0; i < arr.length - 1; ++i) {
             for (int j = 0; j < arr.length - i - 1; ++j) {
@@ -59,6 +67,10 @@ public class ObjectSorter extends Object {
             }
         }
     }
+    /**
+     * Sorts an Object array using recursive bubble sort
+     * @param arr The array to sort
+     */
     public static void recursiveBubbleSort(Object[] arr, int length) {
         if (length == 1) {
             return; //base case
@@ -72,6 +84,10 @@ public class ObjectSorter extends Object {
         }
         recursiveBubbleSort(arr, length-1);
     }
+    /**
+     * Sorts an Object array using insertion sort
+     * @param arr The array to sort
+     */
     public static void insertionSort(Object[] arr) {
         for (int i = 1; i < arr.length; ++i) {
             Object key = arr[i];
@@ -83,6 +99,10 @@ public class ObjectSorter extends Object {
             arr[j+1] = key;
         }
     }
+    /**
+     * Sorts an Object array using recursive insertion sort
+     * @param arr The array to sort
+     */
     public static void recursiveInsertionSort(Object[] arr, int length) {
         if (length <= 1) {
             return; //base case
@@ -96,6 +116,10 @@ public class ObjectSorter extends Object {
         }
         arr[j+1] = last;
     }
+    /**
+     * Sorts an Object array using merge sort
+     * @param arr The array to sort
+     */
     public static void mergeSort(Object[] arr, int l, int r) {
         if (l < r) {
             int m = l + (r-1) / 2;
@@ -137,6 +161,10 @@ public class ObjectSorter extends Object {
             ++k;
         }
     }
+    /**
+     * Sorts an Object array using quick sort
+     * @param arr The array to sort
+     */
     public static void quickSort(Object[] arr, int begin, int end) {
         if (begin < end) {
             int partition = partition(arr, begin, end);
